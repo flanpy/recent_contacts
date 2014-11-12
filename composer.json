@@ -1,0 +1,16 @@
+{
+    "name": "flanpy/recent_contacts",
+    "description" : "Add recents contact in quicksearch box (mail compose)",
+    "type": "roundcube-plugin",
+    "keywords": ["autocomplete"],
+    "license": "GPL-3.0+",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
