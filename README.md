@@ -11,7 +11,7 @@ Display recent contacts in mail compose using jQueryUI (*BETA*)
 ## Features :
 Display the most recent contacts while you compose a mail (`task="mail"` & `action="compose"`)
 ####How it works:
-While you compose a mail, if you click on the empty search input, an additional query is sent to the IMAP server to find x recent contacts and display them.
+While you compose a mail, if you click on the empty search input, an additional query is sent to the IMAP server to find 3 recent contacts and display them.
 Return an array to update the `source` option of jQueryUI autocomplete feature.
 
 ## ToDo :
